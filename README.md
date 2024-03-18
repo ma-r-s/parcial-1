@@ -37,8 +37,9 @@ Para ejecutar el proyecto, sigue estos pasos:
   ```
   pnpm install
   ```
-3. Start the development server by running the following command:
+3.Arranca el ambiente de desarrollo:
   ```
   pnpm run dev
   ```
 4. Abre tu navegador y dirigete a `http://localhost:3000` para ver la aplicacion.
+Puedes visalizar la aplicacion desplegada en Vercel en este link: `https://parcial-1-beryl.vercel.app/`
