@@ -43,7 +43,7 @@ export default function Home() {
 								<span className="font-bold">
 									<span className="">{post.followers}</span>
 								</span>
-								<span className=""> {t(title)}</span>
+								<span className=""> {post.title}</span>
 							</div>
 							<div className="flex-shrink">
 								<span className="font-bold">{post.following}</span>
