@@ -42,4 +42,5 @@ Para ejecutar el proyecto, sigue estos pasos:
   pnpm run dev
   ```
 4. Abre tu navegador y dirigete a `http://localhost:3000` para ver la aplicacion.
+
 Da click [aquí](https://parcial-1-beryl.vercel.app/) para visualizar el despliegue en Vercel.
