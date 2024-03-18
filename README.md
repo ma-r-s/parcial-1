@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Alpesgram
 
-## Getting Started
+Alpesgram es una plataforma de redes sociales que permite a los usuarios mostrar una colección de fotos en una estructura similar a una cuadrícula. Este README proporciona una visión general del proyecto e instrucciones sobre cómo ejecutarlo.
 
-First, run the development server:
+## Tecnologías Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- React
+- Next.js
+- Tailwind CSS
+- Componentes Shadcn UI
+- PNPM
+- I18next
+- MockAPI
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Estructura del Proyecto
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+El proyecto consta de tres pantallas principales: Inicio, Perfil y Detalle de la Publicación. La aplicación está desarrollada utilizando React.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Pantalla de Inicio
 
-## Learn More
+La pantalla de inicio muestra una colección de perfiles de usuarios en un diseño de cuadrícula. Cada perfil incluye una foto de perfil, nombre de usuario, nombre, descripción y URL del sitio web.
 
-To learn more about Next.js, take a look at the following resources:
+### Pantalla de Perfil
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+La pantalla de perfil permite a los usuarios ver y editar su información de perfil. Incluye campos para el nombre de usuario, nombre completo, descripción del perfil y URL del sitio web. Los usuarios pueden alternar entre el modo de edición y el modo de visualización.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Pantalla de Detalle de la Publicación
 
-## Deploy on Vercel
+La pantalla de detalle de la publicación muestra una sola publicación en detalle. Incluye la imagen de la publicación e información adicional como el nombre de usuario, nombre, descripción y URL del sitio web del usuario que la publicó.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Cómo Ejecutar el Proyecto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Para ejecutar el proyecto, sigue estos pasos:
+
+1. Clona el repositorio en tu máquina local.
+2. Instala las dependencias del proyecto ejecutando el siguiente comando en el directorio del proyecto:
+  ```
+  pnpm install
+  ```
+3. Start the development server by running the following command:
+  ```
+  pnpm run dev
+  ```
+4. Abre tu navegador y dirigete a `http://localhost:3000` para ver la aplicacion.
